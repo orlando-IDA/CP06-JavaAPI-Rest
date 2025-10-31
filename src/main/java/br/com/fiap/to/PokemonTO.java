@@ -10,8 +10,10 @@ public class PokemonTO {
     @NotBlank
     private String nomePokemon;
     @NotNull
+    @Positive
     private Double alturaPokemon;
     @NotNull
+    @Positive 
     private Double pesoPokemon;
     @NotBlank
     private String categoria;
